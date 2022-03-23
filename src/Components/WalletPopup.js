@@ -48,7 +48,7 @@ const { active, account, chainId, library, activate, deactivate } = useWeb3React
         <div className={classes.walletPopup} onClick={props.onCancelHandler}>
             <div className={classes.walletPopup__content} onClick={(event)=>event.stopPropagation()}>
                 <div className={classes.walletPopup__content__header}>
-                    <h2>Wallet Detail</h2>
+                    <h2>Wallet Info</h2>
                     <IoClose onClick={props.onCancelHandler}/>
                 </div>
                 {noConnection && <p>{errorMessage}</p>}
@@ -64,7 +64,7 @@ const { active, account, chainId, library, activate, deactivate } = useWeb3React
                         <li><span>Chain Id</span><span>{chainId}</span></li>
                         <li><span>Balance</span><span>{balance}</span></li>
                     </ul> 
-                    <p>Wallet Details</p> 
+                    <p>Wallet Info</p> 
                     <button onClick={disconnect}>Disconnect</button>  
                 </div>}
             </div>

@@ -1,6 +1,5 @@
 {
-  "name": "neptune_mutual",
-  "homepage": "https://vips94.github.io/Neptune_Mutual",
+  "name": "volt_neptune_mutual",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
